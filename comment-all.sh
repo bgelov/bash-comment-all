@@ -1,2 +1,2 @@
-read filename
-sudo sed -i '/./s/^/#/' ${filename}
+read -p "Enter filename or file path: " filename
+sudo sed -i '/./s/^/#/' "${filename}"
